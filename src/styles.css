@@ -4,14 +4,14 @@
 }
 body {
   max-width: 50%;
-  margin: 0 auto;
-  border: 1px solid black;
+  margin: 1rem auto;
 }
 
 .Container {
   display: flexbox;
   flex-direction: column;
   margin-top: 20px;
+  border: 1px solid black;
 }
 
 #searchCity {

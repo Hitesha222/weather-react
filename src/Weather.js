@@ -1,9 +1,10 @@
 import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./styles.css";
 
 export default function Weather() {
   return (
-    <div className="Container">
+    <>
       <div className="row">
         <div className="col-md">
           <form id="searchCity">
@@ -37,6 +38,6 @@ export default function Weather() {
           <p id="desc">Mostly Cloudy</p>
         </div>
       </div>
-    </div>
+    </>
   );
 }
