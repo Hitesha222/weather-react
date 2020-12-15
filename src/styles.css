@@ -1,4 +1,26 @@
-.wather {
+.App {
   font-family: sans-serif;
   text-align: center;
+}
+body {
+  max-width: 50%;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+.Container {
+  display: flexbox;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+#searchCity {
+  margin: 20px;
+}
+
+#btnSearch {
+  margin: 0 5px;
+}
+#cityWeaInfo {
+  margin: 10px auto;
 }
