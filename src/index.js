@@ -12,7 +12,11 @@ function App() {
         <Weather />
       </div>
       <footer>
-        <a href="https://github.com/Hitesha222/weather-react" target="_blank">
+        <a
+          href="https://github.com/Hitesha222/weather-react"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Open source code
         </a>{" "}
         by Hitesha
