@@ -2,14 +2,14 @@ import React from "react";
 import ReactDOM from "react-dom";
 import Weather from "./Weather";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./styles.css";
+import "./Weather.css";
+import "./index.css";
 
 function App() {
   return (
     <div className="App">
       <div className="Container">
-        <h1>🌤 WEATHER</h1>
-        <Weather />
+        <Weather defaultCity="London" />
       </div>
       <footer>
         <a
@@ -20,6 +20,7 @@ function App() {
           Open source code
         </a>{" "}
         by Hitesha
+        {/* <small>https://suspicious-tesla-f5158f.netlify.app/</small> */}
       </footer>
     </div>
   );

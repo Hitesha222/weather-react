@@ -1,0 +1,10 @@
+.App {
+  max-width: 500px;
+  margin: 0 auto;
+}
+.Container {
+  font-family: arial, sans-serif;
+  border: 1px solid #dadde1;
+  margin: 10px auto;
+  padding: 16px;
+}
