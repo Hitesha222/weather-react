@@ -18,7 +18,8 @@ export default function Weather(props) {
       Humidity: responce.data.main.humidity,
       city: responce.data.name,
       date: new Date(responce.data.dt * 1000),
-      iconUrl: "https://ssl.gstatic.com/onebox/weather/64/fog.png",
+      icon: responce.data.weather[0].icon,
+      // iconUrl: `https://openweathermap.org/img/wn/${responce.data.weather[0].icon}@2x.png`,
       description: responce.data.weather[0].description,
     });
   }
