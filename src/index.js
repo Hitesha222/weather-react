@@ -19,7 +19,7 @@ function App() {
         >
           Open source code
         </a>{" "}
-        by Hitesha
+        by Hitesha Chauhan
         {/* <small>https://suspicious-tesla-f5158f.netlify.app/</small> */}
       </footer>
     </div>

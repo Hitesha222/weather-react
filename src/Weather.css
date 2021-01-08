@@ -9,6 +9,7 @@ h1 {
 ul {
   margin: 0;
   padding: 0;
+  color: #878787;
 }
 
 li {
@@ -16,4 +17,10 @@ li {
   font-weight: 100;
   line-height: 18px;
   list-style: none;
+  color: #878787;
+}
+
+.Temp {
+  font-weight: bold;
+  font-size: 40px;
 }
