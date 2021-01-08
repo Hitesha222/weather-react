@@ -12,13 +12,13 @@ function App() {
         <Weather defaultCity="London" />
       </div>
       <footer>
-        <a
+        <span
           href="https://github.com/Hitesha222/weather-react"
           target="_blank"
           rel="noreferrer"
         >
           Open source code
-        </a>{" "}
+        </span>{" "}
         by Hitesha Chauhan
         {/* <small>https://suspicious-tesla-f5158f.netlify.app/</small> */}
       </footer>
